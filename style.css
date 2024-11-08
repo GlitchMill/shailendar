@@ -219,3 +219,26 @@ footer {
     font-size: 0.9rem;
     margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    section {
+        padding: 0.8rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* General styling for all images */
+section img {
+    max-width: 100%; /* Ensures the image fits within its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any extra space below images */
+    margin: 1rem 0; /* Adds vertical spacing around images */
+    border-radius: 6px; /* Optional: rounds the corners for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
