@@ -1,0 +1,221 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #555;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.about p, .skills ul, .projects .project, .contact p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #444;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    background: #e0e7ff;
+    padding: 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.project {
+    background-color: #f0f4f8;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header .profile-photo {
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.subject-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.instructor {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #555;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.about p, .skills ul, .projects .project, .contact p,
+.elab-status p, .real-world-problem p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Skills */
+.skills ul, .certifications ul, .coding-competitions ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li, .certifications li, .coding-competitions li {
+    background: #e0e7ff;
+    padding: 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+/* Projects */
+.project {
+    background-color: #f0f4f8;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
